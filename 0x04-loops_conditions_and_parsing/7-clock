@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+#prints the time
 Hour=0
 minutes=1
 

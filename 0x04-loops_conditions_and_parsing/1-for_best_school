@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+#This script displays Best School 10 times
 name="Best School"
 
 for ((counter=0;counter<10;counter++))

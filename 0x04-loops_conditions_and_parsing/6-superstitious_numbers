@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+#echos certain strings on certain conditions
 a=1
 
 while [ "$a" -le 20 ]; do

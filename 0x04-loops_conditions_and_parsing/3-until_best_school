@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+#This script displays Best school 10 times
 a=0
 
 until [ "$a" -eq 10 ]; do

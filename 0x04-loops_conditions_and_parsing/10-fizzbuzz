@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+#The fizzbuzz game
 a=1
 mul3=Fizz
 mul5=Buzz

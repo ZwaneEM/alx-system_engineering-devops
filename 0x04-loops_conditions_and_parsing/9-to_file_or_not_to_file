@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+#file validator 
 filename="school"
 
 if [ -e "$filename" ]; then

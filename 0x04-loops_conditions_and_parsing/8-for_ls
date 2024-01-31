@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+#Prints the current working environment
 LIST="$(ls *)"
 
 for i in $LIST; do
