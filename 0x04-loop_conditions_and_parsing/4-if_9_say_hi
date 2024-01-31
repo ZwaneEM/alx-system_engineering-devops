@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+a=0
+
+while [ "$a" -ne 10 ]; do
+
+	echo "Best School"
+
+	if [ "$a" -eq 8 ]; then
+		echo "Hi"
+	fi
+
+	((a++))
+done

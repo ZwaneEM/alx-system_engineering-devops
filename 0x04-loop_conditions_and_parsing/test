@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+filename="school"
+
+for i in $filename; do
+	echo "$i"
+done

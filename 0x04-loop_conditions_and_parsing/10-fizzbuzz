@@ -1,0 +1,28 @@
+#!/usr/bin/env bash
+
+a=1
+mul3=Fizz
+mul5=Buzz
+
+while [ $a -le 100 ]; do
+
+	fizz_i=$(( a % 3 ))
+	buzz_i=$(( a % 5 ))
+
+	if [ $fizz_i -eq 0 ] && [ $buzz_i -ne 0 ]; then
+
+		echo "$mul3"
+
+	elif [ $buzz_i -eq 0 ] && [ $fizz_i -ne 0 ]; then
+
+		echo "$mul5"
+	
+	elif [ $(( fizz_i + buzz_i )) -eq 0 ]; then
+
+		echo "$mul3$mul5"
+	else
+		echo "$a"
+
+	fi
+	((a++))
+done

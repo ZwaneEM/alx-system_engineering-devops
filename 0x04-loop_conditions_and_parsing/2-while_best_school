@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+counter=0
+guard=10
+name="Best School"
+
+while [ "$counter" -ne "$guard" ]
+do
+	echo "$name"
+	((counter++))
+done
