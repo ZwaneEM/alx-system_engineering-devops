@@ -4,4 +4,4 @@
 user="ubuntu"
 server=52.3.240.122
 
-ssh -i ~/.ssh/*.pub $user@$server
+ssh -i ~/.ssh/school $user@$server
