@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#uses ssh to connect to the server using the private key
+
+user="ubuntu"
+server=52.3.240.122
+
+ssh -i ~/.ssh/*.pub $user@$server
